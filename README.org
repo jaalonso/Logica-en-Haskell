@@ -1,0 +1,4 @@
+#+TITLE: Lógica en Haskell
+
+En este proyecto se encuentra una representación de la lógica proposicional en
+Haskell.
