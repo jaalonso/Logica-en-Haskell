@@ -1,0 +1,36 @@
+name: Logica-en-Haskell
+version: 0.1.0.0
+synopsis: Lógica en Haskell
+description: >
+  En este proyecto se encuentra una representación de la lógica proposicional en Haskell.
+category: Educational
+github: "jaalonso/Logica-en-Haskell"
+license: BSD3
+author: "José A. Alonso"
+maintainer: "JoseA.Alonso@gmail.com"
+copyright: "José A. Alonso"
+
+extra-source-files:
+  - README.org
+
+dependencies:
+  - base >= 4.7 && < 5
+  - hspec
+  - hspec-core
+
+library:
+  source-dirs: src
+  ghc-options: -Wall -fno-warn-type-defaults
+
+tests:
+  spec:
+    main: Spec.hs
+    source-dirs: test
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - Logica-en-Haskell
+    - hspec
+    - hspec-core
