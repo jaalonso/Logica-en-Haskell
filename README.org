@@ -1,4 +1,19 @@
 #+TITLE: Lógica en Haskell
 
 En este proyecto se encuentra una representación de la lógica proposicional en
-Haskell.
+Haskell. También contiene una implementación del algoritmo de unificación y un
+pequeño intérprete de Prolog.
+
+La presentación se hace como una sucesión de ejercicios resueltos.
+
++ [[./src/SintaxisSemantica.hs][Sintaxis y semántica de la lógica proposicional]]
+# + [[./src/FormasNormales.hs][Formas normales y cláusulas]]
+# + [[./src/Clausulas][Cláusulas]]
+# + [[./src/TablerosSemanticos.hs][Tableros semánticos proposicionales]]
+# + [[./src/Secuentes.hs][Cálculo de secuentes proposicionales]]
+# + [[./src/DavisPutnam.hs][El procedimiento de Davis y Putnam]]
+# + [[./src/ResolucionProposicional.hs][Resolución proposicional]]
+# + [[./src/RefinamientosResolucion.hs][Refinamientos de resolución]]
+# + [[./src/ProgramacionLogicaProposicional.hs][Programación lógica proposicional]]
+# + [[./src/Unificacion.hs][Unificación de términos de primer orden]]
+# + [[./src/Prolog.hs][Implementación de Prolog]]
