@@ -4,11 +4,13 @@ En este proyecto se encuentra una representación de la lógica proposicional en
 Haskell. También contiene una implementación del algoritmo de unificación y un
 pequeño intérprete de Prolog.
 
-La presentación se hace como una sucesión de ejercicios resueltos.
+La presentación se hace como una sucesión de ejercicios resueltos y está basada
+en el libro [[https://www.cs.us.es/~jalonso/publicaciones/2002-ded-automatica-1.pdf][Deducción automática (Vol. 1: Construcción lógica de sistemas lógicos)]]
+en el que se usa Prolog en lugar de Haskell.
 
 + [[./src/SintaxisSemantica.hs][Sintaxis y semántica de la lógica proposicional]].
 + [[./src/FormasNormales.hs][Formas normales y cláusulas]].
-# + [[./src/Clausulas][Cláusulas]].
++ [[./src/Clausulas.hs][Cláusulas]].
 # + [[./src/TablerosSemanticos.hs][Tableros semánticos proposicionales]].
 # + [[./src/Secuentes.hs][Cálculo de secuentes proposicionales]].
 # + [[./src/DavisPutnam.hs][El procedimiento de Davis y Putnam]].

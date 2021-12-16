@@ -26,6 +26,7 @@ source-repository head
 
 library
   exposed-modules:
+      Clausulas
       FormasNormales
       SintaxisSemantica
   other-modules:
@@ -43,6 +44,7 @@ test-suite spec
   type: exitcode-stdio-1.0
   main-is: Spec.hs
   other-modules:
+      Clausulas_Spec
       FormasNormales_Spec
       SintaxisSemantica_Spec
       Paths_Logica_en_Haskell
