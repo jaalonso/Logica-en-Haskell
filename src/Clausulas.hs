@@ -1,5 +1,5 @@
 -- Clausulas.hs
--- Clausulas.
+-- Cláusulas.
 -- José A. Alonso Jiménez https://jaalonso.github.com
 -- =====================================================================
 
@@ -9,9 +9,19 @@ module Clausulas where
 -- Librería auxiliares                                                --
 -- ---------------------------------------------------------------------
 
-import SintaxisSemantica
-import FormasNormales
-import Data.List
+import SintaxisSemantica (
+  Interpretacion,
+  Prop(..),
+  simbolosPropConj,
+  subconjuntos,
+  unionGeneral
+  )
+import FormasNormales (
+  Literal,
+  complementario,
+  formaNormalConjuntiva,
+  literal)
+import Data.List (sort, union)
 
 -- ---------------------------------------------------------------------
 -- § Cláusulas                                                          --

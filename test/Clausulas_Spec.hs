@@ -1,8 +1,82 @@
 module Clausulas_Spec (main, spec) where
 
-import SintaxisSemantica
-import Clausulas
-import Test.Hspec
+import SintaxisSemantica (
+  (\/),
+  (/\),
+  (-->),
+  (<-->),
+  no,
+  p,
+  q,
+  r)
+import Clausulas (
+  clausula,
+  clausulas,
+  clausulas1,
+  clausulasConjunto,
+  clausulasConjunto1,
+  clausulasConjunto2,
+  clausulasFNC,
+  esClausulaInsatisfacible,
+  esClausulaInsatisfacible1,
+  esClausulaInsatisfacible3,
+  esClausulaInsatisfacible4,
+  esClausulaInsatisfacible5,
+  esClausulaSatisfacible,
+  esClausulaSatisfacible1,
+  esClausulaSatisfacible3,
+  esClausulaSatisfacible4,
+  esClausulaSatisfacible5,
+  esClausulaValida,
+  esClausulaValida1,
+  esClausulaValida2,
+  esClausulaValida3,
+  esClausulaValida4,
+  esClausulaValida5,
+  esConjuntoConsistenteDeClausulas,
+  esConjuntoConsistenteDeClausulas1,
+  esConjuntoInconsistenteDeClausulas,
+  esConjuntoInconsistenteDeClausulas1,
+  esConjuntoValidoDeClausulas,
+  esConjuntoValidoDeClausulas1,
+  esConjuntoValidoDeClausulas2,
+  esConjuntoValidoDeClausulas4,
+  esConjuntoValidoDeClausulas5,
+  esConsecuenciaEntreClausulas,
+  esConsecuenciaPorClausulas,
+  esConsecuenciaPorClausulas2,
+  esConsecuenciaPorClausulas3,
+  esModeloClausula,
+  esModeloClausula1,
+  esModeloClausula2,
+  esModeloConjuntoClausulas,
+  esModeloConjuntoClausulas1,
+  esModeloConjuntoClausulas2,
+  esModeloLiteral,
+  esValidaPorClausulas,
+  esValidaPorClausulas1,
+  interpretacionesClausula,
+  interpretacionesClausula1,
+  interpretacionesConjuntoClausula,
+  interpretacionesConjuntoClausula1,
+  simbolosProposicionalesClausula,
+  modelosClausula,
+  modelosClausula1,
+  modelosClausula2,
+  modelosConjuntoClausulas,
+  modelosConjuntoClausulas1,
+  modelosConjuntoClausulas2,
+  simbolosProposicionalesClausula1,
+  simbolosProposicionalesConjuntoClausula,
+  simbolosProposicionalesConjuntoClausula1
+  )
+import Test.Hspec (
+  Spec,
+  describe,
+  hspec,
+  it,
+  shouldBe
+  )
 
 main :: IO ()
 main = hspec spec
