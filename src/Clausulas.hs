@@ -9,7 +9,7 @@ module Clausulas where
 -- § Introducción                                                     --
 -- ---------------------------------------------------------------------
 
--- En este módulo se implementa la sinstaxis y la semántica de las
+-- En este módulo se implementa la sintaxis y la semántica de las
 -- cláusulas proposicionales siguiendo su exposición en el tema 5 de la
 -- asignatura de "Lógica informática" que se encuentra en
 -- https://bit.ly/3q9bl2J
