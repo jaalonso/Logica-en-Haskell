@@ -4,8 +4,9 @@ En este proyecto se encuentra una representación de la lógica proposicional en
 Haskell. También contiene una implementación del algoritmo de unificación y un
 pequeño intérprete de Prolog.
 
-La presentación se hace como una sucesión de ejercicios resueltos y está basada
-en el libro [[https://www.cs.us.es/~jalonso/publicaciones/2002-ded-automatica-1.pdf][Deducción automática (Vol. 1: Construcción lógica de sistemas lógicos)]]
+La presentación se hace como una sucesión de ejercicios resueltos basada en los
+[[https://www.cs.us.es/~jalonso/cursos/li-11/temas/temas-LI-2011-12.pdf][Temas de "Lógica informática"]] y en el libro
+[[https://www.cs.us.es/~jalonso/publicaciones/2002-ded-automatica-1.pdf][Deducción automática (Vol. 1: Construcción lógica de sistemas lógicos)]]
 en el que se usa Prolog en lugar de Haskell.
 
 + [[./src/SintaxisSemantica.hs][Sintaxis y semántica de la lógica proposicional]].
