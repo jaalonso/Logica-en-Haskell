@@ -6,6 +6,14 @@
 module TablerosSemanticos where
 
 -- ---------------------------------------------------------------------
+-- § Introducción                                                     --
+-- ---------------------------------------------------------------------
+
+-- En este módulo se implementa el método de los tableros semánticos
+-- proposicionales siguiendo su exposición en el tema 3 de la asignatura
+-- de "Lógica informática" que se encuentra en https://bit.ly/3mgrK4q
+
+-- ---------------------------------------------------------------------
 -- § Librerías auxiliares                                             --
 -- ---------------------------------------------------------------------
 
