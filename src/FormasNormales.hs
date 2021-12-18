@@ -6,6 +6,15 @@
 module FormasNormales where
 
 -- ---------------------------------------------------------------------
+-- § Introducción                                                     --
+-- ---------------------------------------------------------------------
+
+-- En este módulo se implementa el cálculo de la formas normales de
+-- fórmulas proposicionales siguiendo su exposición en el tema 4 de la
+-- asignatura de "Lógica informática" que se encuentra en
+-- https://bit.ly/3skVSzo
+
+-- ---------------------------------------------------------------------
 -- § Librería auxiliares                                              --
 -- ---------------------------------------------------------------------
 
