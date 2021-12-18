@@ -12,6 +12,14 @@ module Clausulas where
 import SintaxisSemantica (
   Interpretacion,
   Prop(..),
+  (\/),
+  (/\),
+  (-->),
+  (<-->),
+  no,
+  p,
+  q,
+  r,
   simbolosPropConj,
   subconjuntos,
   unionGeneral
@@ -26,6 +34,11 @@ import Data.List (sort, union)
 -- ---------------------------------------------------------------------
 -- § Cláusulas                                                          --
 -- ---------------------------------------------------------------------
+
+-- Nota: En los ejemplos se usará la notación de fórmulas del módulo
+-- SintaxisSemantica. Por ejemplo,
+ejFormula :: Prop
+ejFormula = p --> q /\ (r <--> no p \/ q)
 
 -- ---------------------------------------------------------------------
 -- Ejercicio 1: Definir el tipo de datos Clausula como una lista de
