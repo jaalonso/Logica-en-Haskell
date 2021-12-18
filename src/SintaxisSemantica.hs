@@ -6,6 +6,15 @@
 module SintaxisSemantica where
 
 -- ---------------------------------------------------------------------
+-- § Introducción                                                     --
+-- ---------------------------------------------------------------------
+
+-- En este módulo se implementa la sintaxis y la semántica de las
+-- fórmulas proposicionales siguiendo su exposición en el tema 1 de la
+-- asignatura de "Lógica informática" que se encuentra en
+-- https://bit.ly/3GL8YtQ
+
+-- ---------------------------------------------------------------------
 -- § Librerías auxiliares                                             --
 -- ---------------------------------------------------------------------
 
