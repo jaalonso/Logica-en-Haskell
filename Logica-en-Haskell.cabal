@@ -28,6 +28,7 @@ library
   exposed-modules:
       Clausulas
       FormasNormales
+      Secuentes
       SintaxisSemantica
       TablerosSemanticos
   other-modules:
@@ -47,6 +48,7 @@ test-suite spec
   other-modules:
       Clausulas_Spec
       FormasNormales_Spec
+      Secuentes_Spec
       SintaxisSemantica_Spec
       TablerosSemanticos_Spec
       Paths_Logica_en_Haskell
