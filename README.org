@@ -14,7 +14,7 @@ en el que se usa Prolog en lugar de Haskell.
 + [[./src/Clausulas.hs][Cláusulas]].
 + [[./src/TablerosSemanticos.hs][Tableros semánticos proposicionales]].
 + [[./src/Secuentes.hs][Cálculo de secuentes proposicionales]].
-# + [[./src/DavisPutnam.hs][El procedimiento de Davis y Putnam]].
++ [[./src/DavisPutnam.hs][El procedimiento de Davis y Putnam]].
 # + [[./src/ResolucionProposicional.hs][Resolución proposicional]].
 # + [[./src/RefinamientosResolucion.hs][Refinamientos de resolución.]]
 # + [[./src/ProgramacionLogicaProposicional.hs][Programación lógica proposicional.]]

@@ -27,6 +27,7 @@ source-repository head
 library
   exposed-modules:
       Clausulas
+      DavisPutnam
       FormasNormales
       Secuentes
       SintaxisSemantica
@@ -47,6 +48,7 @@ test-suite spec
   main-is: Spec.hs
   other-modules:
       Clausulas_Spec
+      DavisPutnam_Spec
       FormasNormales_Spec
       Secuentes_Spec
       SintaxisSemantica_Spec
