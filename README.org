@@ -1,5 +1,5 @@
 #+TITLE: Lógica en Haskell
-
+ 
 En este proyecto se encuentra una representación de la lógica proposicional en
 Haskell. También contiene una implementación del algoritmo de unificación y un
 pequeño intérprete de Prolog.
